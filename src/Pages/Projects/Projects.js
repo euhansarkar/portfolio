@@ -1,5 +1,11 @@
 import React from 'react';
 
+const productsData = [
+    {
+        
+    }
+]
+
 const Projects = () => {
     return (
         <div className='my-20'>

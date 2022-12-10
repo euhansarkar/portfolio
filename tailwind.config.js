@@ -27,6 +27,27 @@ module.exports = {
           error: "#E12340",
         },
       },
+      {
+        darkTheme: {
+          primary: "#4ade80",
+
+          secondary: "#6b7280",
+
+          accent: "#065f46",
+
+          neutral: "#3b82f6",
+
+          "base-100": "#504356",
+
+          info: "#be185d",
+
+          success: "#1BC07B",
+
+          warning: "#f97316",
+
+          error: "#E12340",
+        },
+      },
     ],
   },
   plugins: [require("daisyui")],

@@ -54,7 +54,7 @@ const Footer = () => {
         </div>
         <div className="font-bold my-5 flex items-center justify-center space-x-4">
           <FaRegCopyright className="font-bold text-xl" />
-          <span>Euhan Sarkar. Joy Bangla</span>
+          <span>Euhan Sarkar- All Right Reserved - 2023</span>
         </div>
       </div>
     </div>
