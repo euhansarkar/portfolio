@@ -46,6 +46,10 @@ export const router = createBrowserRouter([
         element: <Resume></Resume>,
       },
       {
+        path: `/contactme`,
+        element: <ContactMe></ContactMe>,
+      },
+      {
         path: `/projects/:id`,
         element: <ProjectDetails></ProjectDetails>,
         loader: ({ params }) =>

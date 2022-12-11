@@ -22,6 +22,9 @@ const Navbar = () => {
       <li className="font-bold capitalize">
         <Link to={`/blogs`}>blogs</Link>
       </li>
+      <li className="font-bold capitalize">
+        <Link to={`/contactme`}>Contact Me</Link>
+      </li>
     </>
   );
 
