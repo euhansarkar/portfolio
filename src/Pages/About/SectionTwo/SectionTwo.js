@@ -17,9 +17,9 @@ const SectionTwo = () => {
     <div className="mt-20 mb-32">
       <h2 className="text-4xl text-center capitalize text-yellow-500">technology we use!</h2>
       <div className="flex items-center justify-center">
-        <div className="grid grid-cols-2 md:grid-cols-6  space-x-16 space-y-10 items-center">
-          <img src={html} className="w-12 text-center" alt="" />
+        <div className="flex space-x-20 w-3/5 space-y-12 flex-wrap items-center justify-center">
           <img src={css} className="w-12 self-center" alt="" />
+          <img src={html} className="w-12 text-center" alt="" />
           <img src={js} className="w-12 self-center" alt="" />
           <img src={bs} className="w-12 self-center" alt="" />
           <img src={tw} className="w-12 self-center" alt="" />

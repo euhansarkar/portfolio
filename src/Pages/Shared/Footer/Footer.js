@@ -12,7 +12,7 @@ const Footer = () => {
   const footerNav = (
     <>
       <li className="font-bold capitalize text-xl underline py-8">
-        <Link to={`/about`}>About</Link>
+        <a href={`https://www.linkedin.com/in/euhansarkar/`}>About</a>
       </li>
       <li className="font-bold capitalize text-xl underline py-8">
         <Link to={`/resume`}>Resume</Link>
@@ -54,7 +54,7 @@ const Footer = () => {
         </div>
         <div className="font-bold my-5 flex items-center justify-center space-x-4">
           <FaRegCopyright className="font-bold text-xl" />
-          <span>Euhan Sarkar- All Right Reserved - 2023</span>
+          <span>Nurul Islam Euhan- All Right Reserved - 2023</span>
         </div>
       </div>
     </div>

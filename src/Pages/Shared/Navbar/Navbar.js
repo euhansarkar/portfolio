@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { Link } from "react-router-dom";
-import logo from "../../../assets/images/logo/logo.jpg";
+import logo from "../../../assets/images/logo/logo.png";
 import { DarkContext } from "../DarkMode/DarkMode";
 
 const Navbar = () => {
@@ -54,9 +54,9 @@ const Navbar = () => {
            }
           </ul>
         </div>
-        <Link className="btn btn-ghost normal-case text-xl">
+        <Link to={`/`} className="btn btn-ghost normal-case text-xl">
             <img src={logo} className="w-12 rounded-full" alt="" />
-          <h2 className="text-xl ml-3">euhan sarkar</h2>
+          <h2 className="text-xl ml-3">Nurul Islam Euhan</h2>
         </Link>
       </div>
       <div className="navbar-center hidden lg:flex">

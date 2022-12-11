@@ -1,5 +1,5 @@
 import React from "react";
-import img from "../../../assets/images/logo/logo.jpg"
+import img from "../../../assets/images/logo/logo.png"
 
 const Banner = () => {
   return (
@@ -13,7 +13,7 @@ const Banner = () => {
       </div>
         <h2 className="text-5xl capitalize font-bold text-center">Euhan sarkar</h2>
         <h2 className="text-2xl capitalize font-bold text-center">programmger</h2>
-        <h2 className="text-2xl capitalize font-bold text-center">front-end javascript developer</h2>
+        <h2 className="text-2xl capitalize font-bold text-center">front-end web developer</h2>
     </div>
   );
 };

@@ -1,0 +1,92 @@
+[
+  {
+    "name": "EduLayer",
+    "description": "Proactively promote economically sound core competencies via leading-edge initiatives. Completely repurpose optimal imperatives vis-a-vis high-payoff markets. Credibly supply an expanded array of partnerships without covalent e-tailers. Competently visualize highly efficient imperatives before maintainable convergence. Completely implement B2C catalysts for change after cooperative resources.Progressively conceptualize cost effective process improvements whereas exceptional models. .",
+    "images": ["https://i.ibb.co/X7DmGFG/111.png"],
+    "features": [
+      [
+        "EduLayer is a project where instructors provide technical courses and learners can book and buy a course from any instructor."
+      ],
+      [
+        "we design and develop this project by using tailwindCSS and Reactjs Library.  Implement React-Router, firebase authentication, and other small libraries like react-hot-toast."
+      ],
+      ["we loaded course data from created mock api."]
+    ],
+    "start-date": "2022-11-23",
+    "end-date": "2022-11-28",
+    "technologies": [
+      "HTML",
+      "CSS",
+      "TailwindCSS",
+      "ReactJS",
+      "React-Router",
+      "TanstackQuery",
+      "DaisyUI",
+      "Firebase Auth",
+      "NodeJS",
+      "EXPRESS JS",
+      "React-Hook-Form",
+      "MongoDB",
+      "JWT",
+      "Cors"
+    ],
+    "links": [
+      {
+        "live": "https://edu-layer.web.app/"
+      },
+      {
+        "clint": "https://github.com/euhansarkar/Edu-Layer-Client"
+      },
+      {
+        "server": "https://github.com/euhansarkar/Edu-Layer-Server"
+      }
+    ],
+    "contributors": []
+  },
+  {
+    "name": "PhotoShootCare",
+    "description": "Proactively promote economically sound core competencies via leading-edge initiatives. Completely repurpose optimal imperatives vis-a-vis high-payoff markets. Credibly supply an expanded array of partnerships without covalent e-tailers. Competently visualize highly efficient imperatives before maintainable convergence. Completely implement B2C catalysts for change after cooperative resources.Progressively conceptualize cost effective process improvements whereas exceptional models. .",
+    "images": ["https://i.ibb.co/pZKq0mJ/222.png"],
+    "features": [
+      [
+        "PhotoShootCare is a full-stack project where we handle 2 parties, Service Providers and Buyers. Here Buyers can Buy a service and review it."
+      ],
+      [
+        "Buyers can see Specific Products and other customers' reviews on that products. If the Buyer logged in and wants to add a new review he/she can easily do it. but if not logged in he/she needs to complete authentication. After authentication he/she can add a review., he/she will get a new route 'My Reviews'. Where Buyer enjoys CRUD Operations."
+      ],
+      [
+        "Service Providers can verify Buyers and add, modify and delete new Services if they want."
+      ]
+    ],
+    "start-date": "2022-11-07",
+    "end-date": "2022-11-10",
+    "technologies": [
+      "HTML",
+      "CSS",
+      "TailwindCSS",
+      "ReactJS",
+      "React-Router",
+      "TanstackQuery",
+      "DaisyUI",
+      "Firebase Auth",
+      "NodeJS",
+      "EXPRESS JS",
+      "React-Hook-Form",
+      "MongoDB",
+      "JWT",
+      "Cors"
+    ],
+    "links": [
+      {
+        "live": "https://photoshootcare.web.app/"
+      },
+      {
+        "clint": "https://github.com/euhansarkar/PhotoShootCare-Client"
+      },
+      {
+        "server": "https://github.com/euhansarkar/PhotoShootCare-Server"
+      }
+    ],
+    "contributors": []
+  }
+]

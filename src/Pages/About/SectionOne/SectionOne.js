@@ -3,6 +3,7 @@ import Lottie from "lottie-react";
 import dev from "../../../assets/anime/dev.json";
 import Typewriter from "typewriter-effect";
 import { FaArrowRight } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const SectionOne = () => {
   return (
@@ -11,10 +12,10 @@ const SectionOne = () => {
         <Lottie animationData={dev} className={`w-full md:w-1/2`} loop={true} />
         <div className="w-full">
           <h1 className="text-6xl capitalize font-bold">
-            Hello i'm Euhan Sarkar,
+            Hello i'm Nurul Islam Euhan,
             <Typewriter
               options={{
-                strings: ["i'm a developer", "i'm a designer"],
+                strings: [" A Web Developer", "A Web Designer"],
                 autoStart: true,
                 loop: true,
               }}
@@ -31,9 +32,11 @@ const SectionOne = () => {
             ut assumenda excepturi exercitationem quasi. In deleniti eaque aut
             repudiandae et a id nisi.p
           </p>
-          <button className="btn btn-primary">
-            download my resume <FaArrowRight className="font-bold mx-2" />
-          </button>
+          <Link to={`/resume`}>
+            <button className="btn btn-primary">
+              download my resume <FaArrowRight className="font-bold mx-2" />
+            </button>
+          </Link>
         </div>
       </div>
     </div>
